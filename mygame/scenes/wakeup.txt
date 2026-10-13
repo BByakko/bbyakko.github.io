@@ -1,0 +1,44 @@
+“Oh wake up, you laggard!”
+
+With a start, you awaken at the sharp tone of the chambermaid. She ignores your confused flailing as she roughly pushes you off your bed, pulling and bundling the covers and sheets into her arms.
+
+Standing unsteadily by your bed, you push back your black hair, rubbing your groggy eyes clear even as the mid-morning sun stings them awake. Faintly, you can hear the songs of small birds, and the distant sound of clashing swords and the shouts of men in training. 
+
+With all your bedsheets securely rolled under her arms, the maid turns to you. With a huff and a disapproving shake of her head, she begins to address you.
+
+What name does she call you by?
+*choice
+	#"Rook"
+		*goto Continue
+	#No, my name is...
+		*goto namechoice
+		
+*label namechoice
+
+My name is... 
+*input_text Player_Name
+
+Your name is ${Player_Name}, is that right?
+*choice
+	#Yes, that's correct
+		*goto Continue
+	#No, that's not right
+		*goto namechoice
+
+
+*label Continue
+
+“${Player_Name}! Lazy boy! Sir Braum is already waiting for you in the training yard!”
+
+Your sleepy mind finally begins to clear. She is right; the sun was high in the sky,  and you should have been in training yard since dawn.
+
+“He coddles you far too much, our Lord.” The maid continues as she begins to shuffle out of your room. “See to it that you don’t keep him waiting longer than you have have already!”
+
+You nod sheepishly as she closes the door, still grumbling under her breath at your apparent laziness. You begin to get dressed, and realize a gnawing hunger in your stomach.  You have missed breakfast, or lunch at this point. However, late as you already are, Sir Braum was likely still waiting for you in the training yard. Then again, since you are already tardy, perhaps it did not matter if you first had a meal before meeting your Lord.  
+
+Where do you go?
+*choice
+	#The kitchens.
+		*goto_scene kitchens
+	#The training yard (note, this route is not fully complete)
+		*goto_scene trainingyard

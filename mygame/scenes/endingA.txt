@@ -1,0 +1,122 @@
+There was no hiding about how much you dallied away from training, and so you tell the knight of your decision to go to kitchens prior to training. He comments about you thinking with your stomach, but relents that he would probably have made you go to the kitchens for meal before training anyway.
+
+The moment you begin telling him about how you brought tea to the Chancellor, you notice a change in Sir Braum’s demeanour. A chilling disquiet seems to run through him as you continue to describe your meeting with the Chancellor. He remains quiet and pensive, even as you finish with your telling.
+
+Sir Braum looks away from you, his face set in a frown as he continues to wordlessly ponder your words.
+
+*choice
+	*selectable_if (Cunning >= 3) #(Cunning > 3) Surreptitiously, you creep a little closer to the knight... 
+		*goto Cunning
+	#You give Sir Braum a few moments to compose himself...
+		*goto NoCunning
+
+*label Cunning
+You peer from the side cautiously, trying to read the knight’s expression, to glean what is it that had made him suddenly pause. With a start, you realise what he trying to hide from you. His teeth are grit tight, his eyes are full of fear. 
+
+What could you have said that would cause such a reaction?
+
+Perhaps realising he was being observed, Sir Braum gives a short cough, rousing himself from his petrified stupor. Quickly regaining his composure, he clears his throat and starts to address you, acting as if the conversation continued unabated.
+*goto End
+
+*label NoCunning
+You wait for a few moments patiently, but at his continued silence, you start to become impatient and more than a little curious at the effect your words have on him.
+*goto End
+
+*label End
+“Right…right, I see. Well, the Chancellor will be here until dawn tomorrow, when he rides for the capital. I trust you stay on your best behaviour till then.”
+
+“As much as I have already.” You smirk.
+
+“As long as you have told me everything you’ve said to him! Then, I can sleep a little easier.”
+
+*if not (TeaCunning)
+	*goto BraumNotMentioned
+
+“Well, I did put in a good word for you.” 
+
+You recount how you had relayed how it was your hand in selecting the Chancellor’s tea. Sir Braum remarks that he doubts the Chancellor would truly care, but he seems a little pleased and relieved by your helpful suggestion.
+
+*label BraumNotMentioned
+
+“All well and good but,” and at this his tone becomes hushed, he places a hand on your shoulder, “You must understand. It is…unseemly…for you to meet him without my presence.”
+
+You feel him press his grasp a little, though not painfully. He makes his point clear, though he seems reluctant to say it.
+
+“I understand, Sir.” You reply simply.
+
+He makes a small sigh of relief, then motions you to follow him to the sparring circle. He continues to talk about the intention for the Chancellor’s visit - a simple retrieval of historical documents from the knight’s library - and the preparations for an upcoming tournament he is keen to bring you to. 
+
+However, all his light talk seems to fade into the background for you, as it seems your bastardy continues to cast a long pall over you and everything you do.
+
+*page_break
+
+Is this your lot in life?
+
+Even as you play the part of loyal and humble squire, it seems everyone only sees a stain - best concealed, and loathsome when seen. Yet you have little choice, because this is the lot of the nameless, and truly you have been blessed with unusual fortune in having any place in Sir Braum’s household. With his patronage, and the skills he teaches you, you would have a better future than many in your position.
+
+Perhaps you do not need to truly know your origins. Perhaps this is enough in life.
+
+Is it?
+*choice
+	#Yes
+		*goto Yes
+	#No
+		*goto No
+
+*label Yes
+You feel a sudden pain in your hand and drop your sword. Sir Braum has managed to disarm you while you were absorbed in your thoughts.
+
+*if (ChooseTraining)
+	*goto YesAndTrained
+
+“I know you think the sword isn’t your strong-suit, but I at least taught you to hold the sword well enough! Come on, again!”
+
+As you pick up your training sword, the knight begins to tell you about some of the new tutors he plans to teach you. Tales that were more rumour and terribly embellished stories than anything. At the point he finishes telling you about the incident with the pomegranate, you burst out into a fit of uncontrollable laughter and drop your sword again.
+
+The knight almost begins to admonish you again, but finds himself unable to contain his own hoarse laughter.
+
+[i]"Aye," you think to yourself, "This is good enough."[/i]
+*ending
+
+*label YesAndTrained
+“I am going to expect better than that if you’re serious about the sword, ${Player_Name}!”
+
+As you pick up your training sword, the knight begins to tell you about some of the new tutors he plans to teach you. Tales that were more rumour and terribly embellished stories than anything. At the point he finishes telling you about the incident with the pomegranate, you burst out into a fit of uncontrollable laughter and drop your sword again.
+
+The knight almost begins to admonish you again, but finds himself unable to contain his own hoarse laughter.
+
+[i]"Aye," you think to yourself, "This is good enough."[/i]
+*ending
+
+*label No
+You and Sir Braum begin to spar, and as your swords cross, a single word occupies your mind.
+
+[i]'No.'[/i]
+
+A strike, and parry.
+
+[i]'No.'[/i]
+
+The word resonates with your blows.
+
+[i]'No, this is not enough.'[/i]
+
+Your blade slips across  your opponent’s cross-guard, striking a successful blow at the knight’s wrist. With a yell, he drops his sword, being successfully disarmed.
+
+*if (ChooseTraining)
+	*goto NoAndTrained
+
+Shocked at first with your move, Sir Braum quickly picks up his sword, “Well done. Well done! And you want to focus on your studies…ah a shame…”
+
+As he readjusts his grip, the knight begins to tell you about some of the new tutors he plans to teach you. Tales that were more rumour and terribly embellished stories than anything. At one point in his story, he breaks out into a fit of hoarse laughter, but you do not partake.
+
+It is a kind of hunger that occupies your mind.  You wonder what could finally sate it…
+*ending
+
+*label NoAndTrained
+Shocked at first with your move, Sir Braum quickly picks up his sword, “Well done. Well done! Keep this up, and you’ll be a fine swordsman. Perhaps even a competitor at next fall’s tournament!”
+
+As he readjusts his grip, the knight begins to tell you about some of the new tutors he plans to teach you. Tales that were more rumour and terribly embellished stories than anything. At one point in his story, he breaks out into a fit of hoarse laughter, but you do not partake.
+*ending
+
+It is a kind of hunger that occupies your mind.  You wonder what could finally sate it…

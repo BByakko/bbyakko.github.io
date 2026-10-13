@@ -1,0 +1,104 @@
+“All right, it’s a fair deal.”
+
+“Indeed! Now,” she motions you to the tray, “The Chancellor should be up in the library tower. You see why such a journey be a trial for one such as me.”
+
+She watches as you steadily lift the tray. It is not too heavy, but you are nervous of the journey. The library tower is one of the highest points in the keep, and you are not looking forward to the long climb with such precious and fragile cargo.
+
+“Don’t you rush! I’ll tell the Lord to let you off for the day, so don’t worry about hurrying back to ‘im all that much!”
+
+*page_break
+
+You make your steady ascent up the library tower, mindful of your every step, each one ] you take seems to threaten to jostle the teapot and cup off the tray.
+
+After an arduous climb, you finally reach the corridor to the library. On many days, it’s heavy doors would usually be closed and undisturbed, the Lord of the keep not being one for much study. Today however, the doors stand wide open,  a pair of guards at attention by either side. From afar, you spot the figure of an old and wizened in heavy robes standing at betwixt the tall shelves. In his hands is one of the many books of the library, which he appears to be studying with great care and quiet contemplation.
+
+The guards note your approach, and on recognizing you, allow you to enter without a word. You quickly find the nearest desk on which to place the tray, and suddenly you become very aware that you did not truly think what meeting the Chancellor would entail.
+
+“Rook, is it?”
+
+The Chancellor closes his book silently behind you, studying you with a practiced gaze.
+
+*page_break
+
+He is an old man, well into his seventh decade and dressed in robes that seem at once too heavy and large for his frame. But his eyes still shone with a sharpness that made it apparent his mind had not slowed, probably for many more years to come. As you turn to face him, you note his eyes inspecting you with the same scrutiny as the book. 
+
+What was he reading in you, you are not sure, and you find yourself unable to return the gaze. You quickly turn your gaze to the ground in a quick bow.
+
+He returns your bow with a slight nod of acknowledgment.
+
+“Braum’ ward. His personal squire. Is that correct?”
+
+“Yes sir.”
+
+He moves closer to the desk, his long fingers wrap around the teapot’s handle. He begins to pour himself a cup of the tea as he continues.
+
+“I had a brief conversation with him when I arrived. He appears to be in quite a rage.”
+
+You feel the heat in your face rise, a ball of dread beginning to build in the back of your mind.
+
+*page_break
+
+“I take it is from your absence in training, and your curiously simultaneous presence here, instead.”
+
+You nod dumbly, acutely aware that whatever you say to the Chancellor would reflect on your Lord. You had not thought far when you agreed to this task. You had assumed that you would be quickly excused once you delivered the tea, but now you find yourself unable to escape the conversation as it were.
+
+The Chancellor briefly pauses, bringing the cup to his lips.
+
+“Hm, curiouser still.” You hear him audibly breathing in the scent of the tea.
+
+“This brew….it's a rare kind. One I used to enjoy, but it became scarce many years ago…”
+
+He pauses once more, and you realize he is silently querying you on the origins of the tea.
+
+“My lord…”
+
+*choice
+	#“…the tea was brewed by one of our cooks...”
+		*goto libchoiceA
+	#“…Lord Braum knew of your preference and sent for this tea personally…”
+		*goto libchoiceB
+		
+*label libchoiceA
+
+*set Wisdom +1
+(Wisdom +1)
+
+“…the tea was brewed by one of our cooks. I will inquire in how she was able to obtain the tea, if it’s to your liking, Sir.”
+
+“Oh?” A small look of incredulity passes across the Chancellor’s face, but it vanishes just as quickly as it appears.
+
+“Very well, I thank you nonetheless, for this small pleasure. It was an unexpected surprise.”
+
+He takes a sip of the tea, and closes his eyes for a moment, his expression being one of deep contemplation. You become acutely aware again, of being in the presence of the Chancellor with nary a reason to be there. You are about to hopefully politely excuse yourself when the Chancellor intercedes on your behalf.
+
+“I believe your Lord is still present in the training yard, and last I left him he was quite harsh on the other squires in your absence.”
+
+He gestures to one of the guards by the door, who dutifully approaches him and bows.
+
+“I will inform him of how you were busy being a gracious host, bringing tea to warm an old man’s bones.” He smiles, with a truly kindly expression, “To help lighten the blow.”
+
+You are slightly surprised, and grateful, at the Chancellor’s candid deed of aid. As he begins to speak to the guard, you realize it is time for you to leave. You give him one more deep bow, and exit the library.
+*finish
+
+*label libchoiceB
+
+*set Cunning +1
+*set TeaCunning true
+(Cunning +1)
+
+“…Lord Braum knew of your preference and sent for this tea personally, my Lord.” You explain smoothly.
+
+“Oh?” A small look of incredulity passes across the Chancellor’s face, but it vanishes just as quickly as it appears.
+
+“Very well, I must thank him personally, for this small pleasure. It was an unexpected surprise.”
+
+He takes a sip of the tea, and closes his eyes for a moment, his expression being one of deep contemplation. You become acutely aware again, of being in the presence of the Chancellor with nary a reason to be there. You are about to hopefully politely excuse yourself when the Chancellor intercedes on your behalf.
+
+“I believe your Lord is still present in the training yard, and last I left him he was quite harsh on the other squires in your absence.”
+
+He gestures to one of the guards by the door, who dutifully approaches him and bows.
+
+“I will inform him of how you were busy being a gracious host, bringing tea to warm an old man’s bones.” He smiles, with a truly kindly expression, “To help lighten the blow.”
+
+You are slightly surprised, and grateful, at the Chancellor’s candid deed of aid. As he begins to speak to the guard, you realize it is time for you to leave You give him one more deep bow, and exit the library.
+*finish

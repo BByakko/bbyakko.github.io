@@ -1,0 +1,38 @@
+*set Wisdom +1
+(Wisdom +1)
+
+There is no good reason to keep your lord waiting, even though you already missed your morning duties and training. Punishment was unavoidable, but there was nothing to be gained in avoiding it and putting your lord in a fouler mood.
+
+As you begin to get dressed, you reflect on the chambermaid’s words. She was not wrong in her observations. In all the years that you have spent here in the Lord’s house, it was evident that you were never pushed as hard as the other squires and pages in training, nor were you punished as severely as the others when you neglected your duties.
+
+You were brought into his house as a babe, motherless and fatherless. You did not know the manner of your arrival, but as far as you can remember, you were left to the care of wet-nurses, and given a proper education by a myriad of tutors on par with any noble’s. Your martial training began when you could hold a sword, and you joined the ranks of the other pages as they were instructed by the man-at-arms. These pages came from low-born offshoots of the Lord’s house, and yet unlike you, they still knew their mothers and fathers.
+
+Having the appellation of ‘bastard’ became commonplace to you; a form of derision that you endured for many years from your fellows. The staff were little better, most having a hand in your growth and care, but given to gossiping about your ignoble origins as they tended to you all the same.
+*page_break
+That is, until the Lord of the house decided to appoint you his squire, and took to personally training you in swordsmanship and the expectations of knighthood.
+
+The jeers did not stop however. They were now simply whispered, often still within earshot of you.
+
+The lord was a good and fair master to you, firm and exact in his training, but easily given to indulging you to a degree. It is due to his tolerance, that you were bold enough to broach the subject of your origins more than once in the past. Each time however, the lord would simply ignore your questioning, or on one occasion, stated that you were a distant relative he was indebted to raise. 
+
+What you truly are - some embarrassing base-born son of a far-off relative he feels obligated to elevate to some respectability and station; or his own bastard, you may never know. Over the years, you sometimes find yourself dreading rather than desiring  the answer.
+
+You continue to ruminate on your origins as you make your way outside the keep walls, feeling the warmth of the sun high in the sky as you enter the training yard.
+
+*choice
+	#This route is incomplete. You will be taken back to the initial choice.
+		*goto Return
+
+*label Return
+“${Player_Name}! Lazy boy! Sir Braum is already waiting for you in the training yard!”
+
+Your sleepy mind finally begins to clear. She is right; the sun was high in the sky,  and you should have been in training yard since dawn.
+
+“He coddles you far too much, our Lord.” The maid continues as she begins to shuffle out of your room. “See to it that you don’t keep him waiting longer than you have have already!”
+
+You nod sheepishly as she closes the door, still grumbling under her breath at your apparent laziness. You begin to get dressed, and realize a gnawing hunger in your stomach.  You have missed breakfast, or lunch at this point. However, late as you already are, Sir Braum was likely still waiting for you in the training yard. Then again, since you are already tardy, perhaps it did not matter if you first had a meal before meeting your Lord.  
+
+Where do you go?
+*choice
+	#The kitchens.
+		*goto_scene kitchens

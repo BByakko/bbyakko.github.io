@@ -1,0 +1,66 @@
+You are already late to training, and remiss in your duties. Punishment would follow whether you dutifully trudged to the training yard at this very instant, or arrive well into the afternoon. The key difference was that one choice led to you facing that punishment on a contented belly, and you decide this is the more sensible option. 
+
+As you begin to get dressed, you reflect on the chambermaid’s words. She was not wrong in her observations. In all the years that you have spent here in the Lord’s house, it was evident that you were never pushed as hard as the other squires and pages in training, nor were you punished as severely as the others when you neglected your duties.
+
+Perhaps the greatest evidence is how you were allowed to sleep till near noon, a luxury none of the other squires would ever be afforded. Then again, you are a relation to the Lord, though your exact relation was a source of some gossip within the household. 
+
+You were brought into his house as a babe, motherless and fatherless. You did not know the manner of your arrival, but as far as you can remember, you were left to the care of wet-nurses, and given a proper education by a myriad of tutors on par with any noble’s. Your martial training began when you could hold a sword, and you joined the ranks of the other pages as they were instructed by the man-at-arms. These pages came from low-born offshoots of the Lord’s house, and yet unlike you, they still knew their mothers and fathers.
+
+Having the appellation of ‘bastard’ became commonplace to you; a form of derision that you endured for many years from your fellows. The staff were little better, most having a hand in your growth and care, but given to gossiping about your ignoble origins as they tended to you all the same.
+*page_break
+That is, until the Lord of the house decided to appoint you his squire, and took to personally training you in swordsmanship and the expectations of knighthood.
+
+The jeers did not stop however. They were now simply whispered, often still within earshot of you.
+
+The lord was a good and fair master to you, firm and exact in his training, but easily given to indulging you to a degree. It is due to his tolerance, that you were bold enough to broach the subject of your origins more than once in the past. Each time however, the lord would simply ignore your questioning, or on one occasion, stated that you were a distant relative he was indebted to raise. 
+
+What you truly are - some embarrassing base-born son of a far-off relative he feels obligated to elevate to some respectability and station; or his own bastard, you may never know. Over the years, you sometimes find yourself dreading rather than desiring  the answer.
+
+You continue to ruminate on your origins as you make your way down to the kitchens.
+*page_break
+You enter the kitchen, and immediately the scent of fresh baked bread, and the aroma from a cauldron of meaty stew bubbling on the fire pit, greet your hungrysenses. As you approach the large central table intending to break a portion of bread for yourself, you notice one of the old kitchen cooks tending to a kettle on the fire.
+
+She is bent double either from age or some affliction; her single good eye staring intently at the cast-iron pot. She has been a constant fixture at the keep since you arrived here, though she rarely left the kitchens.
+
+At your approach, she turns briefly and greets you warmly, “Rook. You’re late to breakfast.”
+
+*page_break
+
+Her speech is slurred, as her lips are badly deformed from the disfigurement  that robbed her of her other eye as well. You remember when you first caught a glimpse of her as a young boy, how you screamed and cried as any child would at the sight. It took several months before you would stop wincing at the sight of her.
+
+She was always kind to you despite your initial misgivings about her. Her hideous appearance became a boon when on many occasions, she found you tormented by the other jealous squires, but was able to send them running with a single disapproving glare. After many such rescues, any fear or repulsion you had for her evaporated, as you found in her a caring ally.
+
+You peer with curiosity as she begins to lift the heavy kettle from the fire. You approach to assist her but she shoos your hand away just as she lets the kettle rest on the oaken surface of the table. A fine pewter teapot and cup are also present on the table, and next to them is a tied bundle of dried leaves and stems. As you chew your bread, you watch as the cook  slowly tips the hot water into the pot. She then carefully pries several leaves from the bundle, and drops them into the steaming pot.
+
+As she begins to place the teapot and cup onto a tray, she says to you, “I need to ask a favor of you, ${Player_Name}.”
+
+*page_break
+
+“My old legs can’t make up most steps in the keep,” she continues, petting one of her knees. 
+
+“The Chancellor’s arrived today, and this tea be for him. One of the serving girls was to help me but they’ve buggered off to who knows where.”
+
+The cook turns a sly eye onto you, “While you’re here where you oughtn't be at this hour.”
+
+You nod sheepishly at that, admitting you were late to rise.
+
+“And now you’re later still!” she chides. Her tone however, once again turns sly as she continues, “But if I were to tell him you were on an errand to serve the Chancellor himself, the Lord wouldn’t have much to say to that, eh?”
+
+Do you...
+*choice
+	#Agree to help the cook bring the tea to the Chancellor?
+		*goto_scene library
+	#Decline as you really must return to training as soon as possible. (incomplete)
+		*goto Decline
+
+	
+*label Decline
+
+"I'm sorry, old m'am. But you're right. I'm where I shouldn’t be. I just didn't want to train on an empty stomach is all. But now I should be on my way to meet the Lord in the yard."
+
+The old cook looks at you with a disappointed one-eyed stare, and gives a heavy sigh. She quickly waves you away all the same.
+
+“Aye, aye, you’re right, you’re right. I’ll be able to squirrel out one of those layabout girls somewhere. The tea’s liable to get cold by then, and it’s a rare bunch too, and I’ll have to boil up another kettle…”
+
+She continues to grumble as you take your leave of the kitchen, heading towards the training yard.
+*finish

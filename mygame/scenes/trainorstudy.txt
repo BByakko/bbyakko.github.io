@@ -1,0 +1,55 @@
+“There’s not much to it. If your heart’s not into training, you might as well be learning with the scholars instead.”
+
+He pauses then, stern and expectant, as he awaits your response.
+
+You choose to...
+*choice
+	#“I’ll train harder!”
+		*goto Train
+	#“I’d rather focus on my studies…”
+		*goto Study
+
+*label Train
+
+*set Swordsmanship +1
+*set ChooseTraining true
+(Swordsmanship +1)
+
+“…You’re right, I am weak. But, that means I should be training twice as hard, not less.”
+
+The old knights grins in approval and nods, “Aye, but that means waking up without needing me to drag you from your sheets.”
+
+From the rack of  training swords next to him, he picks one and hands it to you hilt first.
+
+“You’re more than a little late, but we have the time to spar a while yet before sundown.”
+
+You are grateful for the opportunity, quickly accepting the blade. As you and Sir Braum make your way to the sparring circle, he continues, “I sent Lisbet to get you much earlier today though, where have you been all this time?”
+
+“Ah,” you begin nervously, but the knight simply continues, “I can’t get much angrier than I was, so just tell me everything.”
+*finish
+
+*label Study
+
+*set Wisdom +1
+(Wisdom +1)
+
+“…You’re right, I would rather just be focusing on my studies, Sir.”
+
+The old knight gives a sigh, muttering “Hm, not surprising…”
+
+You look down for a moment, musing on whether this decision is worth disappointing your Lord. To your surprise however, you feel a sudden and jovial clap on your shoulder. Looking up, you are greeted by a simple and understanding smile.
+
+“Better we know where your interests lie. However, I may have been forgiving all this time. Your teachers, not so much. If you’re not training with me at dawn, I expect you in the library tower.”
+
+He rubs your head roughly but warmly, “That means waking up without needing me to drag you from your sheets.”
+
+“I will, I will! Stop!” You push his hand away and he begins to laugh at your irritation.
+
+From the rack of  training swords next to him, he picks one and hands it to you hilt first.
+
+“You won’t be a master of it, but you’re more than welcome to spar to pass the time, when even the books get tedious. It’s more than a little late, but we have the time to practice your form a while yet before sundown.”
+
+Grateful for your Lord’s understanding and the opportunity, you quickly accept the blade. As you and Sir Braum make your way to the sparring circle, he continues, “I sent Lisbet to get you much earlier today though, where have you been all this time?”
+
+“Ah,” you begin nervously, but the knight urges you to continue, “I’m not angry, so you know, just tell me everything.”
+*finish

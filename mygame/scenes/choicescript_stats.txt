@@ -1,0 +1,14 @@
+*stat_chart
+	text Player_Name [b]Name[/b]	
+*line_break
+*stat_chart	
+	text Swordsmanship [b]Swordsmanship[/b]
+[i]This measures your physical martial skill and reflexes, which determines your ability in duels and fights; and may aid you in intimidation or thwarting assasination attempts.[/i]	
+*line_break
+*stat_chart
+	text Cunning [b]Cunning[/b]
+[i]This reflects your intuition, your ability to read other people's actions and responses.[/i]
+*line_break
+*stat_chart
+	text Wisdom [b]Wisdom[/b]
+[i]This measures your intelligence, and knowledge of history and other academic subjects; as well as your ability to make logical conclusions with sufficient information.[/i]

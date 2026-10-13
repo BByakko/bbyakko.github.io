@@ -1,0 +1,78 @@
+“Look who’s awake!”
+
+On entering the training yard, you are immediately greeted by the sneers and  mockery of the other squires. Sir Braum turns slightly to give you a rueful glare as you arrive, then turns back immediately to the rack of training swords he was inspecting.
+
+You push your way through the gaggle of squires, who immediately box you in and prevent you from approaching your Lord. On any other day, Sir Braum would disperse them quickly with a word or quick strike, but today he is not one to grant you any favors.
+
+The jostling reaches a point where you are pushed to the ground, and the lot take great pains to kick as much dust as possible into you as they finally leave. As you rub the dirt out of your eyes, the tall shadow of Sir Braum falls over you. You look up only to meet his scowl. You wonder if you should even attempt to stand.
+
+*page_break
+
+“Seems like you still need more time to rest, eh, boy?”
+
+You nod dumbly, as you begin to climb to your feet. But as you attempt to do so, you feel a pressure pushing back down on your shoulders, keeping you on the ground. Peering to your left, you see the flat of the Lord’s broadsword pressing heavily down on your shoulder. He holds it in place with little effort, and you resign yourself to your prone position on the ground.
+
+“Sorry for my lateness, my Lord.”
+
+You hear a snort of derision above you.
+
+“Sorry, he says…”
+
+You feel the weight on your shoulder lift. The tip of the blade moves below your chin, and lifts,  tilting your head up to face the heavy glare of the old knight. 
+
+“You truly are a sorry sight.” He grumbles, looking down at you with an expression of grim disappointment.
+
+“I let you have some luxuries, but even I have limits…”
+
+How do you answer him...
+*choice
+	#You retort sorely "Well, why [i]do[/i] you?"
+		*goto Why
+	#You decide that it is wiser to keep silent.
+		*goto Silence
+
+*label Why
+
+*set Cunning +1
+(Cunning +1)
+
+His eyes immediately narrow. With a grunt he reaches down with one hand and grabs you by the scruff of your tunic. He pulls you up to face him, leaving your legs are dangling in the air, your toes just barely grazing the ground. 
+
+“It’s the same question I ask myself more and more these days! Why should I expect anything more than laziness and insolence from you!”
+
+He drops you abruptly, but you are able to catch yourself in time.
+
+The knight immediately grasps your right wrist and holds it up, gesturing you to inspect it with him. 
+
+“Look at your hands, boy. You tire after a few spars with the training sword when the other boys are practicing with armor.”
+
+His tone is less gruff now, but he keeps his firm grip on your wrist.
+
+“I don’t push you, because I don’t expect that will help. Do you understand?”
+
+With that, he finally releases your arm, taking a step back with a weary sigh. As you silently rub the soreness from your wrist, you think you spy a look of small regret cross the knight’s face.
+*finish
+
+*label Silence
+
+*set Wisdom +1
+(Wisdom +1)
+
+You decide keeping silent is a smarter option. Your lord is already more than a little incensed as it is, being cocky would do little to help your position.
+
+He continues to ramble on with his complaints about your behaviour, but he eventually notices your muteness.
+
+“Have nothing to say at all, eh?”
+
+He drops his sword away from your chin, you rub your jaw from where the edge had rested, but otherwise you remain in your sullen silence. A look of worry makes the knight frown again.
+
+“Did the other boys hurt you too badly?” he asks you, his voice tinged with concern.
+
+You begin to stand, and immediately feel the knight’s strong arm under yours. He helps to pull you to your feet, stepping back as you begin to dust the dirt and grime from your clothes.
+
+“They’re loud, but they won’t dare do any real damage.” You say to him. That you are speaking at last seems to set him at ease, though he still seems bothered by what to do with you.
+
+He sighs and rubs his temples in irritation, “Ah, what am I to do with you, Rook…”
+
+“What exactly do you want me to do with you, boy?”
+*finish
